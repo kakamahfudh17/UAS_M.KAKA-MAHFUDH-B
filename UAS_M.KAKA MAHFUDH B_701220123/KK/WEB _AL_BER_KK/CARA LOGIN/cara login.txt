@@ -1,0 +1,14 @@
+membuka web:
+http://localhost/UAS_M.KAKA MAHFUDH B_701220123/KK/WEB _AL_BER_KK/login.php
+
+user:
+kakamahfudh (admin)
+ayuulandari (owner)
+ryven17 (operator_alat_berat)
+
+login (username dan password):
+username:kakamahfudh (password : kaka123)
+username:ayuulandari (password : ayu123)
+username:ryven17 (password : ryven123)
+
+

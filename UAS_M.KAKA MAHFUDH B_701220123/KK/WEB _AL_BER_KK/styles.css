@@ -1,0 +1,143 @@
+body {
+    background-color: #ffffff;
+}
+
+.login-container {
+    max-width: 300px;
+    padding: 16px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+.login-container h2 {
+    margin: 0 0 15px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input[type="text"], .login-container input[type="password"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login-container input[type="submit"] {
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+}
+
+
+.ikan{
+    padding: 5px 0; 
+    background-color: yellow;
+}
+.ikan h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#000000,#000000 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sapi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.sapi li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px;
+}
+.sapi li a{
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fbff00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.5s;
+}
+.sapi ul li a:hover{
+    background: linear-gradient(45deg,#03f5fd,#00ff0d 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.sapi li a::before{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    bottom: -5px;
+    width: 0;
+    border-radius: 70px;
+    background: linear-gradient(45deg,#03f5fd,#00ff0d 80%);
+    transition: 0.5s;
+}
+.sapi li a:hover::before{
+    width: 100%;
+}
+.active{
+    background: linear-gradient(45deg,#03f5fd,#00ff0d 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: aliceblue;
+}
+
+.banner{
+    height: 78vh;
+    background-image: url("00.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2{
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    padding: 10px 35px;
+    border: 7px solid rgb(0, 0, 0);
+    border-style: solid;
+    background: transparent;
+    transition: all .3s ease-in;
+    background: -webkit-linear-gradient(45deg,#000000,#000000 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section{
+    padding: 50px 0;
+}
+
+.unta {
+    height: 115vh;
+    background-color: #fbff00;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px ;
+}
+.obat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: yellow;
+    padding: 3.5px 0;
+}
+
+
+
